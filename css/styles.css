@@ -14,6 +14,10 @@ body {
     width: 100%;
 }
 
+.col-33 {
+    width: calc(100% / 3 - 10px);
+}
+
 .col-40 {
     width: 40%;
 }
@@ -86,6 +90,13 @@ main {
     margin-top: 80px;
 }
 
+.titolo-sezione {
+    height: 100px; /* da togliere */
+    background-color: red; /* da togliere */
+    border: 1px solid black; /* da togliere */
+    margin: 10px 0;
+}
+
 /* jumbotron */
 
 .jumbotron {
@@ -112,3 +123,162 @@ main {
     background-color: red; /* da togliere */
     border: 1px solid black; /* da togliere */
 }
+
+/* sezione 1, piani abbonamento */
+
+.container-1 {
+    width: 60%;
+    margin: 50px auto 0;
+}
+
+.tipo-dilazionamento {
+    margin: 10px 0;
+    height: 100px; /* da togliere */
+    background-color: red; /* da togliere */
+    border: 1px solid black; /* da togliere */
+}
+
+.container-1 .col-33 {
+    margin: 0 5px;
+    height: 400px; /* da togliere */
+    background-color: red; /* da togliere */
+    border: 1px solid black; /* da togliere */
+}
+
+.container-1 .tipi-abbonamento {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.container-1 .enterprise {
+    height: 100px; /* da togliere */
+    background-color: red; /* da togliere */
+    border: 1px solid black; /* da togliere */
+    margin: 10px 0;
+}
+
+/* sezione 2, partner Dropbox */
+
+.container-2 {
+    width: 60%;
+    margin: 50px auto 0;
+}
+
+.container-2 .col-60 {
+    height: 400px; /* da togliere */
+    background-color: red; /* da togliere */
+    border: 1px solid black; /* da togliere */
+}
+
+.container-2 .col-40 {
+    height: 400px; /* da togliere */
+    background-color: red; /* da togliere */
+    border: 1px solid black; /* da togliere */
+}
+
+.container-2 .row {
+    display: flex;
+}
+
+/* sezione 3, operazioni Dropbox Business */
+
+.container-3 {
+    width: 60%;
+    margin: 50px auto 0;
+}
+
+.container-3 .col-33 {
+    margin: 10px 5px;
+    height: 200px; /* da togliere */
+    background-color: red; /* da togliere */
+    border: 1px solid black; /* da togliere */
+}
+
+.container-3 .operazioni-business {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* sezione 4, clienti dropbox */
+
+.container-4 {
+    margin: 50px auto 0;
+}
+
+.container-4 .row {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.container-4 .box-clienti {
+    display: flex;
+    width: 100vw;
+    margin-bottom: 0px;
+}
+
+.container-4 .col-33 {
+    width: calc(100% / 3);
+    height: 400px; /* da togliere */
+    background-color: red; /* da togliere */
+    border: 1px solid black; /* da togliere */
+}
+
+.container-4 .clienti-sinistra {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clienti-sinistra .col-50 {
+    height: 199px; /* da togliere */
+    background-color: red; /* da togliere */
+    border: 1px solid black; /* da togliere */
+}
+
+.container-4 .clienti-destra {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clienti-destra .col-50 {
+    height: 199px; /* da togliere */
+    background-color: red; /* da togliere */
+    border: 1px solid black; /* da togliere */
+}
+
+.row.prova-gratuita {
+    margin-top: 0px;
+}
+
+.container-4 .prova-gratuita {
+    width: 100vw;
+    background-color: rgb(180, 208, 231);
+}
+
+.container-4 .prova-gratuita .col-100 {
+    width: 60%;
+    margin: 0 auto;
+    height: 200px; /* da togliere */
+    background-color: red; /* da togliere */
+    border: 1px solid black; /* da togliere */
+}
+
+/* sezione 5, domande frequenti */
+
+.container-5 {
+    width: 60%;
+    margin: 50px auto;
+}
+
+.container-5 .domande-frequenti {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-5 .col-100 {
+    height: 100px; /* da togliere */
+    background-color: red; /* da togliere */
+    border: 1px solid black; /* da togliere */
+}
+
