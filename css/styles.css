@@ -14,6 +14,10 @@ body {
     width: 100%;
 }
 
+.col-20 {
+    width: 20%;
+}
+
 .col-33 {
     width: calc(100% / 3 - 10px);
 }
@@ -42,6 +46,7 @@ header {
     left: 0;
     right: 0;
     height: 80px;
+    background-color: white;
 }
 
 header .row {
@@ -214,13 +219,13 @@ main {
 
 .container-4 .box-clienti {
     display: flex;
-    width: 100vw;
+    width: 100%;
     margin-bottom: 0px;
 }
 
 .container-4 .col-33 {
     width: calc(100% / 3);
-    height: 400px; /* da togliere */
+    height: calc(100vw /3);
     background-color: red; /* da togliere */
     border: 1px solid black; /* da togliere */
 }
@@ -231,7 +236,6 @@ main {
 }
 
 .clienti-sinistra .col-50 {
-    height: 199px; /* da togliere */
     background-color: red; /* da togliere */
     border: 1px solid black; /* da togliere */
 }
@@ -242,7 +246,6 @@ main {
 }
 
 .clienti-destra .col-50 {
-    height: 199px; /* da togliere */
     background-color: red; /* da togliere */
     border: 1px solid black; /* da togliere */
 }
@@ -252,7 +255,7 @@ main {
 }
 
 .container-4 .prova-gratuita {
-    width: 100vw;
+    width: 100%;
     background-color: rgb(180, 208, 231);
 }
 
@@ -282,3 +285,30 @@ main {
     border: 1px solid black; /* da togliere */
 }
 
+/* footer */
+
+footer {
+    background-color: black;
+}
+
+.container-footer {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container-footer .col-20 {
+    height: 300px; /* da togliere */
+    background-color: red; /* da togliere */
+    border: 1px solid black; /* da togliere */
+}
+
+.footer-links {
+    display: flex;
+    padding: 50px 0;
+}
+
+.language-selection .col-20 {
+    height: 50px; /* da togliere */
+    background-color: red; /* da togliere */
+    border: 1px solid black; /* da togliere */
+}
