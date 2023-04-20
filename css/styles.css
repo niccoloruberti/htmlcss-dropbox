@@ -104,6 +104,8 @@ main {
     background-color: red; /* da togliere */
     border: 1px solid black; /* da togliere */
     margin: 10px 0;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 /* jumbotron */
@@ -155,16 +157,65 @@ main {
 
 .tipo-dilazionamento {
     margin: 10px 0;
-    height: 100px; /* da togliere */
-    background-color: red; /* da togliere */
-    border: 1px solid black; /* da togliere */
+}
+
+.container-1 .etichetta-abbonamento {
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+    border-bottom: 1px solid black;
+}
+
+.container-1 .content {
+    margin: 25px 20px;
+}
+
+.container-1 .content div {
+    margin: 10px 0;
+}
+
+.container-1 .content h4 {
+    font-size: 20px;
+}
+
+.container-1 .cadenza {
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.container-1 i {
+    margin-right: 3px;
+}
+
+.container-1 .content ul {
+    margin: 30px 0px 30px 25px;
+}
+
+.container-1 .content li {
+    margin: 15px 0;
+}
+
+.container-1 .content .blue-button {
+    padding: 10px 40px;
+}
+
+.container-1 .content p {
+    margin: 30px 0;
+}
+
+.container-1 .content hr {
+    width: 30%;
+}
+
+.container-1 .content h5 {
+    margin: 30px 0;
 }
 
 .container-1 .col-33 {
     margin: 0 5px;
-    height: 400px; /* da togliere */
-    background-color: red; /* da togliere */
-    border: 1px solid black; /* da togliere */
+    /* height: 800px; 
+    background-color: red; */
+    border: 1px solid black;
 }
 
 .container-1 .tipi-abbonamento {

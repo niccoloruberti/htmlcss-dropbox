@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -81,17 +81,91 @@
         <div class="container-1">
             <div class="row">
                 <!-- titolo -->
-                <div class="col-100 titolo-sezione"></div>
+                <div class="col-100 titolo-sezione">
+                    <h2>Trova il piano business che fa per te</h2>
+                </div>
             </div>
             <div class="row">
                 <!-- dilazionamento fatturazione -->
-                <div class="col-100 tipo-dilazionamento"></div>
+                <div class="col-100 tipo-dilazionamento">
+                    <input type="radio" name="tipo-dilazionamento" value="Fatturazione mensile">
+                    <label>Fatturazione mensile</label>
+                    <input type="radio" name="tipo-dilazionamento" value="Fatturazione annuale">
+                    <label>Fatturazione annuale</label>
+                </div>
             </div>
                 <!-- tipi di abbonamento -->
             <div class="row tipi-abbonamento">
-                <div class="col-33"></div>
-                <div class="col-33"></div>
-                <div class="col-33"></div>
+                <div class="col-33">
+                    <!-- singolo -->
+                    <span class="etichetta-abbonamento"><i class="fa-solid fa-user" style="color: #000000;"></i>Singolo</span>
+                    <div class="content">
+                        <h4>Professional</h4>
+                        <div class="costo"><strong>&euro; 12.00</strong></div>
+                        <div class="cadenza">/mese</div>
+                        <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fa-solid fa-user" style="color: #000000;"></i></span>1 utente</li>
+                            <li><span class="fa-li"><i class="fa-solid fa-folder" style="color: #000000;"></i></span>5 TB di spazio di archiviazione sicuro</li>
+                            <li><span class="fa-li"><i class="fa-solid fa-share-nodes" style="color: #000000;"></i></span>funzioni di produttività premium e condivisione file semplice e sicura</li>
+                        </ul>
+                        <button class="blue-button">Prova gratis per 30 giorni</button>
+                        <p>oppure <a href="#">acquista ora</a></p>
+                        <hr>
+                        <h5>Punti salienti del piano</h5>
+                        <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fa-sharp fa-solid fa-check" style="color: #0061ff;"></i></span>Invia file fino a 100 GB con Dropbox Transfert</li>
+                            <li><span class="fa-li"><i class="fa-sharp fa-solid fa-check" style="color: #0061ff;"></i></span>Cartelle offline su dispositivi mobili</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-33">
+                    <!-- team -->
+                    <span class="etichetta-abbonamento"><i class="fa-solid fa-users" style="color: #000000;"></i>Team</span>
+                    <div class="content">
+                        <h4>Advanced</h4>
+                        <div class="costo"><strong>&euro; 18.00</strong></div>
+                        <div class="cadenza">/utente/mese</div>
+                        <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fa-solid fa-user" style="color: #000000;"></i></span>3 o più utenti</li>
+                            <li><span class="fa-li"><i class="fa-solid fa-folder" style="color: #000000;"></i></span>Tutto lo spazio di cui ha bisogno il tuo team</li>
+                            <li><span class="fa-li"><i class="fa-solid fa-share-nodes" style="color: #000000;"></i></span>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
+                        </ul>
+                        <button class="blue-button">Prova gratis per 30 giorni</button>
+                        <p>oppure <a href="#">acquista ora</a></p>
+                        <hr>
+                        <h5>Punti salienti del piano</h5>
+                        <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fa-sharp fa-solid fa-check" style="color: #0061ff;"></i></span>Nessun limite di spazio per i file</li>
+                            <li><span class="fa-li"><i class="fa-sharp fa-solid fa-check" style="color: #0061ff;"></i></span>Cartelle offline su dispositivi mobili</li>
+                            <li><span class="fa-li"><i class="fa-sharp fa-solid fa-check" style="color: #0061ff;"></i></span>Risparmio del 50% rispetto alle iscrizioni singole</li>
+                            <li><span class="fa-li"><i class="fa-sharp fa-solid fa-check" style="color: #0061ff;"></i></span>Possibilità di inserire nuovi membri del team</li>
+                            <li><span class="fa-li"><i class="fa-sharp fa-solid fa-check" style="color: #0061ff;"></i></span>Gestione dei permessi in base ai ruoli</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-33">
+                    <!-- Azienda -->
+                    <span class="etichetta-abbonamento"><i class="fa-sharp fa-solid fa-building" style="color: #000000;"></i>Azienda</span>
+                    <div class="content">
+                        <h4>Professional</h4>
+                        <div class="costo"><strong>Contattaci</strong></div>
+                        <div class="cadenza">-</div>
+                        <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fa-solid fa-user" style="color: #000000;"></i></span>10 o più utenti</li>
+                            <li><span class="fa-li"><i class="fa-solid fa-folder" style="color: #000000;"></i></span>Soluzioni personalizzabili per la tua azienda</li>
+                            <li><span class="fa-li"><i class="fa-solid fa-share-nodes" style="color: #000000;"></i></span>Assistenza personalizzata per aiutare gli amministatori in una gestione su larga scala</li>
+                        </ul>
+                        <button class="blue-button">Contattaci</button>
+                        <p>oppure <a href="#">acquista ora</a></p>
+                        <hr>
+                        <h5>Punti salienti del piano</h5>
+                        <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fa-sharp fa-solid fa-check" style="color: #0061ff;"></i></span>Cartelle offline su dispositivi mobili</li>
+                            <li><span class="fa-li"><i class="fa-sharp fa-solid fa-check" style="color: #0061ff;"></i></span>Servizio assistenza 24/h</li>
+                            <li><span class="fa-li"><i class="fa-sharp fa-solid fa-check" style="color: #0061ff;"></i></span>Possibilità di personalizzazione totale</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div class="row">
                 <div class="col-100 enterprise"></div>
