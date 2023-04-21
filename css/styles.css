@@ -492,19 +492,34 @@ footer {
     margin: 0 auto;
 }
 
-.container-footer .col-20 {
-    height: 300px; /* da togliere */
-    background-color: red; /* da togliere */
-    border: 1px solid black; /* da togliere */
-}
-
 .footer-links {
     display: flex;
     padding: 50px 0;
+    margin-bottom: 10px;
 }
 
-.language-selection .col-20 {
-    height: 50px; /* da togliere */
-    background-color: red; /* da togliere */
-    border: 1px solid black; /* da togliere */
+.container-footer .footer-links h4 {
+    color: white;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.container-footer .footer-links ul{
+    list-style-type: none;
+}
+
+.container-footer .footer-links li {
+    color: white;
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+.container-footer .language-selection .content {
+    color: rgb(153, 153, 153);
+    padding: 30px 0;
+    border-top: 1px solid rgb(153, 153, 153);
+}
+
+.container-footer .language-selection i {
+    margin: 0 5px;
 }
