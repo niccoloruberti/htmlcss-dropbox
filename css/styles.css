@@ -291,19 +291,25 @@ main {
 
 .container-3 {
     width: 60%;
-    margin: 50px auto 0;
+    margin: 100px auto;
 }
 
 .container-3 .col-33 {
     margin: 10px 5px;
-    height: 200px; /* da togliere */
-    background-color: red; /* da togliere */
-    border: 1px solid black; /* da togliere */
 }
 
 .container-3 .operazioni-business {
     display: flex;
     flex-wrap: wrap;
+}
+
+.container-3 .content img {
+    width: 100%;
+    margin: 5px 10px;
+}
+
+.container-3 .content {
+    margin: 5px 10px;
 }
 
 /* sezione 4, clienti dropbox */
@@ -314,7 +320,11 @@ main {
 
 .container-4 .row {
     width: 60%;
-    margin: 20px auto;
+    margin: 50px auto;
+}
+
+.container-4 .titolo-sezione {
+    margin-bottom: 50px;
 }
 
 .container-4 .box-clienti {
@@ -326,8 +336,6 @@ main {
 .container-4 .col-33 {
     width: calc(100% / 3);
     height: calc(100vw /3);
-    background-color: red; /* da togliere */
-    border: 1px solid black; /* da togliere */
 }
 
 .container-4 .clienti-sinistra {
@@ -335,19 +343,82 @@ main {
     flex-wrap: wrap;
 }
 
-.clienti-sinistra .col-50 {
-    background-color: red; /* da togliere */
-    border: 1px solid black; /* da togliere */
+.box-clienti .col-50 {
+    position: relative;
+    width: 50%;
+    height: 50%;
+}
+
+.container-4 .box-clienti .col-50 img {
+    width: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%);
+}
+
+#designit {
+    background-color: rgb(162, 211, 155);
+    border: 10px solid rgb(209, 233, 205);
+}
+
+#asu {
+    background-color: rgb(97, 8, 43);
+}
+
+#uf {
+    background-color: rgb(0, 147, 206);
+}
+
+#topps {
+    background-color: rgb(255, 28, 28);
+}
+
+#relief {
+    background-color: rgb(213, 0, 31);
+}
+
+#hearst {
+    background-color: rgb(180, 208, 231);
+}
+
+#lonely-planet {
+    background-color: rgb(13, 36, 129);
+}
+
+#clear-channel {
+    background-color: rgb(255, 216, 48);
+}
+
+.container-4 .center {
+    background-color: rgb(245, 245, 245);
+}
+
+.container-4 .center .content {
+    margin: 30px 20px;
+}
+
+.container-4 .center img {
+    width: 50%;
+}
+
+.container-4 .center .content * {
+    margin: 20px 0;
+}
+
+.container-4 .center .content hr {
+    width: 20%;
+}
+
+.container-4 .center .content p, .container-4 .center .content span {
+    font-size: 13px;
+    font-weight: lighter;
 }
 
 .container-4 .clienti-destra {
     display: flex;
     flex-wrap: wrap;
-}
-
-.clienti-destra .col-50 {
-    background-color: red; /* da togliere */
-    border: 1px solid black; /* da togliere */
 }
 
 .row.prova-gratuita {
@@ -362,9 +433,26 @@ main {
 .container-4 .prova-gratuita .col-100 {
     width: 60%;
     margin: 0 auto;
-    height: 200px; /* da togliere */
-    background-color: red; /* da togliere */
-    border: 1px solid black; /* da togliere */
+}
+
+.container-4 .prova-gratuita .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-4 .prova-gratuita .content * {
+    margin: 50px 0;
+}
+
+.container-4 .prova-gratuita .content h4 {
+    font-size: 25px;
+    color: rgb(97, 8, 43);
+}
+
+.container-4 .prova-gratuita .content button {
+    border: none;
+    padding: 5px 25px;
 }
 
 /* sezione 5, domande frequenti */
