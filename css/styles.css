@@ -18,6 +18,13 @@ body {
     border: 0px;
 }
 
+.white-button {
+    padding: 5px;
+    background-color: white;
+    border-radius: 0px;
+    border: 1px solid black;
+}
+
 .row {
     width: 100%;
 }
@@ -252,23 +259,32 @@ main {
 
 .container-2 {
     width: 60%;
-    margin: 50px auto 0;
+    margin: 100px auto 0;
 }
 
 .container-2 .col-60 {
-    height: 400px; /* da togliere */
-    background-color: red; /* da togliere */
-    border: 1px solid black; /* da togliere */
+    height: 100%;
 }
 
-.container-2 .col-40 {
-    height: 400px; /* da togliere */
-    background-color: red; /* da togliere */
-    border: 1px solid black; /* da togliere */
+.container-2 .col-60 img {
+    width: 100%;
 }
 
 .container-2 .row {
     display: flex;
+}
+
+.container-2 .content {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.container-2 .content h4 {
+    font-size: 22px;
+}
+
+.container-2 .content p {
+    margin: 15px 0;
 }
 
 /* sezione 3, operazioni Dropbox Business */
